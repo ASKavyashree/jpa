@@ -1,0 +1,497 @@
+25-Jun-2026 22:23:04.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 22:23:04.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 22:23:04.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 22:23:04.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 22:23:04.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 22:23:04.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 22:23:04.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 22:23:04.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 22:23:04.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 22:23:04.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:23:04.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:23:04.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:23:04.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:23:04.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 22:23:04.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 22:23:04.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 22:23:04.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=54035
+25-Jun-2026 22:23:04.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 22:23:04.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 22:23:04.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 22:23:04.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 22:23:04.591 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 22:23:05.208 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:23:05.557 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1464] milliseconds
+25-Jun-2026 22:23:05.617 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 22:23:05.617 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 22:23:05.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 22:23:09.382 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 22:23:09.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [3,827] ms
+25-Jun-2026 22:23:09.469 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:23:09.485 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3927] milliseconds
+25-Jun-2026 22:24:23.984 INFO [http-nio-8080-exec-7] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:24:24.567 INFO [http-nio-8080-exec-7] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 22:24:26.284 INFO [http-nio-8080-exec-7] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 22:24:27.885 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:24:27.917 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:24:27.920 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:24:27.920 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:24:27.949 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:24:30.229 INFO [http-nio-8080-exec-7] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:24:32.208 INFO [http-nio-8080-exec-7] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:24:32.834 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:26:52.798 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:26:53.144 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 22:26:53.170 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 22:26:53.170 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 22:26:53.184 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:26:53.250 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:27:01.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 22:27:01.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 22:27:01.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 22:27:01.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 22:27:01.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 22:27:01.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 22:27:01.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 22:27:01.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 22:27:01.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 22:27:01.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:27:01.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:27:01.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:27:01.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:27:01.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 22:27:01.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 22:27:01.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 22:27:01.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=57308
+25-Jun-2026 22:27:01.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 22:27:01.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 22:27:01.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 22:27:01.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 22:27:01.384 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 22:27:01.983 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:27:02.459 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1498] milliseconds
+25-Jun-2026 22:27:02.525 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 22:27:02.525 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 22:27:02.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 22:27:05.739 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 22:27:05.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [3,270] ms
+25-Jun-2026 22:27:05.815 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:27:05.827 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3367] milliseconds
+25-Jun-2026 22:27:26.846 INFO [http-nio-8080-exec-4] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:27:27.357 INFO [http-nio-8080-exec-4] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 22:27:28.990 INFO [http-nio-8080-exec-4] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 22:27:30.624 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:27:30.656 INFO [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:27:30.664 INFO [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:27:30.664 INFO [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:27:30.696 INFO [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:27:32.538 INFO [http-nio-8080-exec-4] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:27:34.390 INFO [http-nio-8080-exec-4] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:27:35.070 INFO [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:27:35.072 ERROR [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.close Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/bookstore
+25-Jun-2026 22:27:35.072 ERROR [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.validateConnectionsReturned Connection leak detected: there are 1 unclosed connections!
+25-Jun-2026 22:33:42.278 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:33:42.649 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 22:33:42.664 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 22:33:42.665 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 22:33:42.671 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:33:42.706 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:33:49.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 22:33:49.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 22:33:49.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 22:33:49.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 22:33:49.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 22:33:49.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 22:33:49.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 22:33:49.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 22:33:49.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 22:33:49.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:33:49.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:33:49.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:33:49.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:33:49.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 22:33:49.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 22:33:49.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 22:33:49.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=54179
+25-Jun-2026 22:33:49.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 22:33:49.168 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 22:33:49.168 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 22:33:49.168 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 22:33:49.182 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 22:33:49.795 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:33:50.239 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1450] milliseconds
+25-Jun-2026 22:33:50.293 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 22:33:50.293 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 22:33:50.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 22:33:53.623 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 22:33:53.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [3,402] ms
+25-Jun-2026 22:33:53.722 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:33:53.739 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3499] milliseconds
+25-Jun-2026 22:34:16.965 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:34:17.511 INFO [http-nio-8080-exec-5] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 22:34:19.219 INFO [http-nio-8080-exec-5] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 22:34:20.671 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:34:20.709 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:34:20.709 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:34:20.709 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:34:20.738 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:34:22.576 INFO [http-nio-8080-exec-5] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:34:27.745 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:34:28.750 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:43:07.169 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:43:07.351 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 22:43:07.365 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 22:43:07.366 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 22:43:07.372 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:43:07.400 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:43:11.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:43:11.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:43:11.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:43:11.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:43:11.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 22:43:11.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 22:43:11.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 22:43:11.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=58465
+25-Jun-2026 22:43:11.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 22:43:11.752 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 22:43:11.752 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 22:43:11.752 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 22:43:11.758 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 22:43:12.147 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:43:12.424 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [961] milliseconds
+25-Jun-2026 22:43:12.472 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 22:43:12.472 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 22:43:12.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 22:43:14.843 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 22:43:14.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [2,404] ms
+25-Jun-2026 22:43:14.894 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:43:14.904 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2479] milliseconds
+25-Jun-2026 22:43:34.222 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:43:34.563 INFO [http-nio-8080-exec-5] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 22:43:35.651 INFO [http-nio-8080-exec-5] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 22:43:36.658 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:43:36.683 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:43:36.685 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:43:36.685 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:43:36.703 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:43:37.915 INFO [http-nio-8080-exec-5] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:43:41.182 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:43:41.887 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:44:33.940 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:44:34.105 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 22:44:34.115 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 22:44:34.116 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 22:44:34.122 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:44:34.152 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:44:43.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:44:43.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:44:43.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:44:43.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:44:43.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 22:44:43.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 22:44:43.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 22:44:43.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=59884
+25-Jun-2026 22:44:43.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 22:44:43.921 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 22:44:43.921 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 22:44:43.921 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 22:44:43.925 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 22:44:44.277 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:44:44.482 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [735] milliseconds
+25-Jun-2026 22:44:44.518 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 22:44:44.518 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 22:44:44.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 22:44:46.608 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 22:44:46.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [2,124] ms
+25-Jun-2026 22:44:46.657 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:44:46.664 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2182] milliseconds
+25-Jun-2026 22:46:12.233 INFO [http-nio-8080-exec-6] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:46:12.577 INFO [http-nio-8080-exec-6] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 22:46:13.673 INFO [http-nio-8080-exec-6] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 22:46:14.651 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:46:14.674 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:46:14.675 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:46:14.675 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:46:14.695 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:46:15.991 INFO [http-nio-8080-exec-6] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:46:19.205 INFO [http-nio-8080-exec-6] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:46:19.872 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:50:36.520 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:50:36.702 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 22:50:36.711 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 22:50:36.711 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 22:50:36.719 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:50:36.748 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:50:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:50:40.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:50:40.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:50:40.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:50:40.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 22:50:40.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 22:50:40.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 22:50:40.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=50568
+25-Jun-2026 22:50:40.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 22:50:40.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 22:50:40.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 22:50:40.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 22:50:40.935 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 22:50:41.355 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:50:41.610 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [941] milliseconds
+25-Jun-2026 22:50:41.647 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 22:50:41.647 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 22:50:41.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 22:50:43.776 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 22:50:43.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [2,172] ms
+25-Jun-2026 22:50:43.835 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:50:43.844 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2234] milliseconds
+25-Jun-2026 22:51:47.151 INFO [http-nio-8080-exec-6] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:51:47.485 INFO [http-nio-8080-exec-6] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 22:51:48.572 INFO [http-nio-8080-exec-6] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 22:51:49.508 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:51:49.529 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:51:49.530 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:51:49.530 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:51:49.549 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:51:50.779 INFO [http-nio-8080-exec-6] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:51:54.078 INFO [http-nio-8080-exec-6] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:51:54.766 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:53:47.352 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:53:47.375 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:53:47.375 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:53:47.376 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:53:47.376 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:53:47.377 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:53:47.408 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:53:47.487 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:53:47.496 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:58:34.875 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:58:35.063 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 22:58:35.069 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 22:58:35.069 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 22:58:35.074 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:58:35.110 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:58:39.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 22:58:39.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:58:39.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:58:39.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 22:58:39.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 22:58:39.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 22:58:39.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 22:58:39.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 22:58:39.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=54484
+25-Jun-2026 22:58:39.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 22:58:39.267 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 22:58:39.267 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 22:58:39.267 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 22:58:39.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 22:58:39.660 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:58:39.915 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [910] milliseconds
+25-Jun-2026 22:58:39.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 22:58:39.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 22:58:39.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 22:58:42.071 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 22:58:42.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [2,151] ms
+25-Jun-2026 22:58:42.121 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 22:58:42.129 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2213] milliseconds
+25-Jun-2026 22:59:18.730 INFO [http-nio-8080-exec-6] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 22:59:19.068 INFO [http-nio-8080-exec-6] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 22:59:20.267 INFO [http-nio-8080-exec-6] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 22:59:21.217 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 22:59:21.238 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 22:59:21.239 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 22:59:21.239 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 22:59:21.257 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 22:59:22.461 INFO [http-nio-8080-exec-6] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 22:59:25.661 INFO [http-nio-8080-exec-6] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 22:59:26.336 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 23:01:10.394 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:01:10.586 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 23:01:10.596 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 23:01:10.597 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 23:01:10.603 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:01:10.632 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:01:14.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 23:01:14.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 23:01:14.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 23:01:14.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 23:01:14.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 23:01:14.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 23:01:14.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 23:01:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 23:01:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 23:01:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 23:01:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 23:01:14.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 23:01:14.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 23:01:14.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 23:01:14.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 23:01:14.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 23:01:14.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=53152
+25-Jun-2026 23:01:14.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 23:01:14.608 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 23:01:14.608 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 23:01:14.608 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 23:01:14.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 23:01:14.995 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:01:15.246 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [899] milliseconds
+25-Jun-2026 23:01:15.284 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 23:01:15.284 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 23:01:15.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 23:01:17.370 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 23:01:17.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [2,116] ms
+25-Jun-2026 23:01:17.417 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:01:17.426 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2180] milliseconds
+25-Jun-2026 23:01:46.493 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 23:01:46.831 INFO [http-nio-8080-exec-5] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 23:01:47.917 INFO [http-nio-8080-exec-5] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 23:01:48.870 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 23:01:48.894 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 23:01:48.895 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 23:01:48.895 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 23:01:48.914 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 23:01:50.112 INFO [http-nio-8080-exec-5] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 23:01:53.346 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 23:01:54.029 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 23:04:29.181 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:04:29.362 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 23:04:29.367 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 23:04:29.368 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 23:04:29.373 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:04:29.408 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:04:33.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\KAVYA SHREE\.jdks\dragonwell-1.8.0_492\jre
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_492-b01
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Alibaba
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 23:04:33.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 23:04:33.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\KAVYA SHREE\Downloads\apache-tomcat-9.0.38-windows-x64\apache-tomcat-9.0.38
+25-Jun-2026 23:04:33.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore
+25-Jun-2026 23:04:33.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\temp
+25-Jun-2026 23:04:33.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\logging.properties
+25-Jun-2026 23:04:33.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2026 23:04:33.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\lib\idea_rt.jar=59782
+25-Jun-2026 23:04:33.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Jun-2026 23:04:33.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Jun-2026 23:04:33.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2026 23:04:33.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Jun-2026 23:04:33.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Jun-2026 23:04:33.878 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:04:34.130 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [888] milliseconds
+25-Jun-2026 23:04:34.172 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jun-2026 23:04:34.172 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Jun-2026 23:04:34.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml]
+25-Jun-2026 23:04:36.362 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2026 23:04:36.405 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\KAVYA SHREE\IdeaProjects\JPAConcepts\jpa\BookStore\bookStore\conf\Catalina\localhost\bookstore.xml] has finished in [2,219] ms
+25-Jun-2026 23:04:36.408 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:04:36.416 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2285] milliseconds
+25-Jun-2026 23:05:09.116 INFO [http-nio-8080-exec-7] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: something]
+25-Jun-2026 23:05:09.453 INFO [http-nio-8080-exec-7] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+25-Jun-2026 23:05:10.536 INFO [http-nio-8080-exec-7] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Jun-2026 23:05:11.496 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Jun-2026 23:05:11.516 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 23:05:11.516 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Jun-2026 23:05:11.517 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Jun-2026 23:05:11.536 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Jun-2026 23:05:12.720 INFO [http-nio-8080-exec-7] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Jun-2026 23:05:15.913 INFO [http-nio-8080-exec-7] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Jun-2026 23:05:16.578 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bookstore]
+25-Jun-2026 23:07:12.917 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:07:13.070 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jun-2026 23:07:13.075 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2026 23:07:13.075 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+25-Jun-2026 23:07:13.079 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Jun-2026 23:07:13.116 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
